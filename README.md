@@ -1,6 +1,6 @@
 # Rofi Black-White Theme
 
-![theme-preview](https://github.com/user-attachments/assets/6e147f82-d8df-4b2f-8a6c-85e715de4a23)
+![theme-preview](https://github.com/user-attachments/assets/edd4452e-6ceb-4f84-9c7b-987ca5cb9368)
 
 ## .config/rofi/config.rasi
 ```
@@ -37,7 +37,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       1000px;
+    width:                       650px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -58,9 +58,9 @@ mainbox {
 }
 
 imagebox {
-    padding:                     20px;
+    padding:                     10px;
     background-color:            transparent;
-    background-image:            url("./img/wolf.png",height);
+    background-image:            url("./img/wallhaven-4d8xkg_1600x1200-LAST.png",height);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy" ];
 }
@@ -99,7 +99,7 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "🐺";
+    placeholder:                 "";
     placeholder-color:           inherit;
 }
 
@@ -107,12 +107,12 @@ entry {
 listview {
     enabled:                     true;
     columns:                     1;
-    lines:                       8;
+    lines:                       5;
     cycle:                       false;
     dynamic:                     true;
     scrollbar:                   false;
     reverse:                     false;
-    border: 0px solid;
+    border:                      0px solid;
     spacing:                     10px;
     text-color:                  @foreground;
 }
